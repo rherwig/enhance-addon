@@ -1,0 +1,5 @@
+<Ui>
+    <Script file="debug.lua"/>
+    <Script file="merge.lua"/>
+    <Script file="wait.lua"/>
+</Ui>

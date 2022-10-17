@@ -1,0 +1,8 @@
+package-as: Enhance
+enable-nolib-creation: no
+ignore:
+  - .git
+  - .editorconfig
+  - .gitignore
+  - .gitattributes
+  - pkgmeta.yaml

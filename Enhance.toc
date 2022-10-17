@@ -1,0 +1,16 @@
+## Interface: 90207
+## Author: McHyra
+## Version: 1.0
+## Title: |cff27ae60Enhance|r
+## Notes: Up to 24% more quality for your UI.
+## OptionalDeps: ElvUI
+## DefaultState: enabled
+## SavedVariables: EnhanceDB
+
+Libs\Load.xml
+Utils\Load.xml
+
+Init.lua
+
+Core\Load.xml
+Modules\Load.xml
