@@ -6,7 +6,10 @@ local LibStub = LibStub
 local Enhance = LibStub('AceAddon-3.0'):NewAddon(AddOnName, 'AceConsole-3.0', 'AceEvent-3.0', 'AceTimer-3.0')
 
 Enhance.Name = AddOnName
+
+--@debug@
 Enhance.Debug = true
+--@end-debug@
 
 Enhance.Retail = WOW_PROJECT_ID == WOW_PROJECT_MAINLINE
 Enhance.Classic = WOW_PROJECT_ID == WOW_PROJECT_CLASSIC
