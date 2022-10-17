@@ -5,6 +5,16 @@ of life features that do not each warrant an AddOn of their own.
 ## Supported Game Versions
 Enhance currently support WoW Retail and WotLK Classic.
 
+## Configuration
+In order to configure the AddOn, the options UI can be accessed either by
+navigation to 
+
+`Esc / Interface / AddOns / Enhance` 
+
+or by using the chat command
+
+`/eh options`
+
 ## Features
 The following modules are currently available in Enhance.
 They can be seperatley enabled/disabled to provide maximum flexibility
