@@ -23,6 +23,9 @@ and reduce conflict potential with your other favorite AddOns.
 ### Loot
 - Improves auto-looting speed to almost instantaneous
 
+### Rolling (Loot Master)
+- Automatically capture rolls for main- and off-spec and announce winners in chat
+
 ## Changelog
 This project adheres to [Semantic Versioning](https://semver.org/).
 Please refer to the [CHANGELOG.md](CHANGELOG.md) for detailed changes and

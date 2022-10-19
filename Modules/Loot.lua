@@ -46,7 +46,7 @@ function Module:LOOT_CLOSED()
     Module.HaveEmptyBagSlots = 0
 end
 
-function Module:Bootstrap()
+function Module:Initialize()
     LOOTFRAME_AUTOLOOT_DELAY = 0.1;
     LOOTFRAME_AUTOLOOT_RATE = 0.1;
 

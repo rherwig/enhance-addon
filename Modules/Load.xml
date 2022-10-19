@@ -1,3 +1,4 @@
 <Ui>
     <Script file="Loot.lua"/>
+    <Script file="Roll.lua"/>
 </Ui>
