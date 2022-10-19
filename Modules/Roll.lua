@@ -87,6 +87,7 @@ Module:RegisterOptions({
          YELL = 'Yell',
          PARTY = 'Party',
          RAID = 'Raid',
+         RAID_WARNING = 'Raid Warning',
       },
       set = function(_, value)
          Module:SetOption('channel', value)
