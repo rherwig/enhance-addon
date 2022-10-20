@@ -232,12 +232,9 @@ function Module:StartCountdown(seconds)
    self.timer = self:ScheduleRepeatingTimer("HandleCountdownTick", 1)
 end
 
-function Module:StopCountdown(force)
+function Module:StopCountdown()
    self:CancelTimer(self.timer)
-
-   if not force then
-      self:ProcessResults();
-   end
+   self:StopRoll()
 end
 
 --- Starts a rolling session.
@@ -272,11 +269,7 @@ end
 function Module:StopRoll()
    self.isSessionActive = false
    self:UnregisterEvent("CHAT_MSG_SYSTEM")
-   self:StopCountdown(true)
-
-   if (self:GetOption('mode') == 'MANUAL') then
-      self:ProcessResults()
-   end
+   self:ProcessResults()
 end
 
 function Module:Initialize()

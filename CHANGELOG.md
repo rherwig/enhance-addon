@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.2] - 2022-10-20
+### Fixed
+- Chat message listener is not correctly removed at the end of a roll to prevent out-of-session rolls from counting towards actual rolls.
+
 ## [0.2.1] - 2022-10-19
 ### Added
 - Channel `Raid Warning` to roll module
